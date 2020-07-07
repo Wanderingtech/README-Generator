@@ -1,7 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 
- console.log('Please answer to create your README.')
+console.log('Please answer to create your README.')
 
 // array of questions for user
 const questions = [
@@ -16,13 +16,13 @@ const questions = [
         message: 'What is the title of your project?'
     },
     {
-        type:'input',
+        type: 'input',
         name: 'description',
         message: 'Please describe your project'
     },
     {
         type: 'input',
-        name:'installation',
+        name: 'installation',
         message: 'Please list the required steps for your project installation',
         default: 'npm i'
     },
@@ -54,7 +54,7 @@ const questions = [
     },
     {
         type: 'input',
-        name:'gitHubUserName',
+        name: 'gitHubUserName',
         message: 'Enter your GitHub username'
     },
     {
@@ -64,16 +64,12 @@ const questions = [
     }
 ];
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
 // function to initialize program
 function init() {
-    inquirer.prompt(questions).then(function(answers){
+    inquirer.prompt(questions).then(function (answers) {
         let gitHubURL = `https:/github.com/${answers.gitHubUserName}`;
-        let newREADME = 
-        `# ${answers.title}
+        let newREADME =
+            `# ${answers.title}
         
         ## Description
         
@@ -109,11 +105,14 @@ function init() {
         
         ## Questions
         
-        If you have any questions regarding this project, you can find me at [${answers.gitHubUserName}](https://github.com/${response.gitHubUserName}) 
+        If you have any questions regarding this project, you can find me at [${answers.gitHubUserName}](https://github.com/${answers.gitHubUserName}) 
         
-        and/or at ${response.email}.`
-    })
+        and/or at ${answers.email}.`
+    }
+    )
 }
 
 // function call to initialize program
-init();
+init()
+ // function to write README file
+(fs.writeFile("README.md", newREADME, function (error) { return console.log('Error in write file is: ', error) }))
