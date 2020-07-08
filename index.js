@@ -74,25 +74,23 @@ function init() {
 ## Author
 
 ${answers.userName}
-        
-## Description
 
-${answers.description}
+## License
+
+This project is protected under the ${answers.license} license.
+![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)   
 
 ## Table of Contents:
 
-* [License](#license)
+* [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contribution](#contribution)
 * [Questions](#questions)
 
+## Description
 
-## License
-
-This project is protected under the ${answers.license} license.
-![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
-
+${answers.description}
 
 ## Installation
 
