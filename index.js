@@ -85,7 +85,7 @@ This project is protected under the ${answers.license} license.
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contribution](#contribution)
+* [Contributors](#contributors)
 * [Questions](#questions)
 
 ## Description
