@@ -27,3 +27,10 @@ Inquirer
 Make a section that shows more specific license information.
 
 Customize it more for my usage personally.
+
+## Links
+
+[GitHub](https://github.com/Wanderingtech)
+
+[video walk-through](https://drive.google.com/file/d/1Sy4jEWvoFayym217rWIZX9iuMwGIyazc/view?usp=sharing)
+
