@@ -81,11 +81,11 @@ ${answers.description}
 
 ## Table of Contents:
 
-*[License](#license)
-*[Installation](#installation)
-*[Usage](#usage)
-*[Contribution](#contribution)
-*[Links](#links)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contribution](#contribution)
+* [Questions](#questions)
 
 ## Installation
 
