@@ -2,24 +2,24 @@
 
 ## Author
 
-Heather Stolz
+Heather S	
 
 ## License
 
-This project is protected under the MIT license.
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)   
+This project is protected under the BSD license.
+![GitHub license](https://img.shields.io/badge/license-BSD-blue.svg)   
 
 ## Table of Contents:
 
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contribution](#contribution)
+* [Contributors](#contributors)
 * [Questions](#questions)
 
 ## Description
 
-A quick tool to generate a README file
+A tool to quickly create a README file
 
 ## Installation
 
@@ -27,7 +27,7 @@ Please run these commands to install dependancies for this project: npm i
 
 ## Usage
 
-To shorten the amount of time spent creating a new project for github
+To save time when starting a GitHub project
 
 ## Contributors
 
