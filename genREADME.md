@@ -1,8 +1,12 @@
 # README
+
+## Author
+
+Heather Stolz
         
 ## Description
 
-generates README
+creates a readme file
 
 ## Table of Contents:
 
@@ -18,12 +22,12 @@ Please run these commands to install dependancies for this project: npm i
 
 ## Usage
 
-create readme file
+create a readme
 
 ## License
 
-This project is protected under the MIT license.
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+This project is protected under the BSD-2 license.
+![GitHub license](https://img.shields.io/badge/license-BSD-2-blue.svg)
 
 
 ## Contributors
@@ -36,6 +40,6 @@ npm test
 
 ## Questions
 
-If you have any questions regarding this project, you can find me at [Heather](https://github.com/wanderingtech) 
+If you have any questions regarding this project, you can find me at [wanderingtech](https://github.com/wanderingtech) 
 
 and/or at heather86lyn@gmail.com.

@@ -70,6 +70,10 @@ function init() {
         let gitHubURL = `https:/github.com/${answers.gitHubUserName}`;
         let newREADME =
             `# ${answers.projectTitle}
+
+## Author
+
+${answers.userName}
         
 ## Description
 
@@ -107,10 +111,11 @@ ${answers.test}
 
 ## Questions
 
-If you have any questions regarding this project, you can find me at [${answers.userName}](https://github.com/${answers.gitHubUserName}) 
+If you have any questions regarding this project, you can find me at [${answers.gitHubUserName}](https://github.com/${answers.gitHubUserName}) 
 
 and/or at ${answers.userEmail}.`
         console.log(newREADME)
+         // function to write README file
         fs.writeFile("genREADME.md", newREADME, function () { return console.log('README generator ') })
     }
     )
@@ -118,5 +123,4 @@ and/or at ${answers.userEmail}.`
 
 // function call to initialize program
 init()
- // function to write README file
-// 
+
