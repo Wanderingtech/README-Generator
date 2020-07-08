@@ -49,7 +49,7 @@ const questions = [
         choices: [
             'none',
             'MIT',
-            'BSD-2',
+            'BSD 3',
         ]
     },
     {

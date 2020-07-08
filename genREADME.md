@@ -6,7 +6,7 @@ Heather Stolz
         
 ## Description
 
-creates a readme file
+creates readme file
 
 ## Table of Contents:
 
@@ -22,12 +22,12 @@ Please run these commands to install dependancies for this project: npm i
 
 ## Usage
 
-create a readme
+to generate a readme file
 
 ## License
 
-This project is protected under the BSD-2 license.
-![GitHub license](https://img.shields.io/badge/license-BSD-2-blue.svg)
+This project is protected under the BSD 3 license.
+![GitHub license](https://img.shields.io/badge/license-BSD 3-blue.svg)
 
 
 ## Contributors
