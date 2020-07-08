@@ -1,4 +1,4 @@
-# README Generator
+# README Gen
 
 ## Author
 
@@ -6,15 +6,15 @@ Heather Stolz
         
 ## Description
 
-creates a fast README file
+geberates README file
 
 ## Table of Contents:
 
-*[License](#license)
-*[Installation](#installation)
-*[Usage](#usage)
-*[Contribution](#contribution)
-*[Links](#links)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contribution](#contribution)
+* [Questions](#questions)
 
 ## Installation
 
@@ -22,7 +22,7 @@ Please run these commands to install dependancies for this project: npm i
 
 ## Usage
 
-Create a readme file for a project
+generate README
 
 ## License
 
@@ -32,7 +32,7 @@ This project is protected under the BSD license.
 
 ## Contributors
 
-Heather Stolz
+HEather
 
 ## Tests
 
