@@ -28,7 +28,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'useage',
+        name: 'usage',
         message: 'How will your project be used?'
     },
     {
@@ -69,45 +69,47 @@ function init() {
     inquirer.prompt(questions).then(function (answers) {
         let gitHubURL = `https:/github.com/${answers.gitHubUserName}`;
         let newREADME =
-            `# ${answers.title}
+            `# ${answers.projectTitle}
         
-        ## Description
-        
-        ${answers.description}
-        
-        ## Table of Contents:
-        
-        *[License](#license)
-        *[Installation](#installation)
-        *[Usage](#usage)
-        *[Contribution](#contribution)
-        *[Links](#links)
-        
-        ## Installation
-        
-        Please run these commands to install dependancies for this project: ${answers.installation}
-        
-        ##Usage
-        
-        ${answers.usage}
-        
-        ## License
-        
-        This project is protected under the ${answers.license} license.
-        
-        ## Contributors
-        
-        ${answers.contributors}
+## Description
 
-        ## Tests
+${answers.description}
 
-        ${answers.test}
-        
-        ## Questions
-        
-        If you have any questions regarding this project, you can find me at [${answers.gitHubUserName}](https://github.com/${answers.gitHubUserName}) 
-        
-        and/or at ${answers.email}.`
+## Table of Contents:
+
+*[License](#license)
+*[Installation](#installation)
+*[Usage](#usage)
+*[Contribution](#contribution)
+*[Links](#links)
+
+## Installation
+
+Please run these commands to install dependancies for this project: ${answers.installation}
+
+##Usage
+
+${answers.usage}
+
+## License
+
+This project is protected under the ${answers.license} license.
+
+## Contributors
+
+${answers.contributors}
+
+## Tests
+
+${answers.test}
+
+## Questions
+
+If you have any questions regarding this project, you can find me at [${answers.userName}](https://github.com/${answers.gitHubUserName}) 
+
+and/or at ${answers.userEmail}.`
+        console.log(newREADME)
+        fs.writeFile("genREADME.md", newREADME, function () { return console.log('README generator ') })
     }
     )
 }
@@ -115,4 +117,4 @@ function init() {
 // function call to initialize program
 init()
  // function to write README file
-(fs.writeFile("README.md", newREADME, function (error) { return console.log('Error in write file is: ', error) }))
+// 
