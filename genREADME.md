@@ -1,4 +1,4 @@
-# README
+# README Generator
 
 ## Author
 
@@ -6,7 +6,7 @@ Heather Stolz
         
 ## Description
 
-creates readme file
+creates a fast README file
 
 ## Table of Contents:
 
@@ -22,17 +22,17 @@ Please run these commands to install dependancies for this project: npm i
 
 ## Usage
 
-to generate a readme file
+Create a readme file for a project
 
 ## License
 
-This project is protected under the BSD 3 license.
-![GitHub license](https://img.shields.io/badge/license-BSD 3-blue.svg)
+This project is protected under the BSD license.
+![GitHub license](https://img.shields.io/badge/license-BSD-blue.svg)
 
 
 ## Contributors
 
-Heather
+Heather Stolz
 
 ## Tests
 
