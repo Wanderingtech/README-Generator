@@ -49,7 +49,7 @@ const questions = [
         choices: [
             'none',
             'MIT',
-            'Simplified BSD',
+            'BSD-2',
         ]
     },
     {
@@ -87,13 +87,15 @@ ${answers.description}
 
 Please run these commands to install dependancies for this project: ${answers.installation}
 
-##Usage
+## Usage
 
 ${answers.usage}
 
 ## License
 
 This project is protected under the ${answers.license} license.
+![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
+
 
 ## Contributors
 

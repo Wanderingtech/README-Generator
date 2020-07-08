@@ -2,7 +2,7 @@
         
 ## Description
 
-creates readme
+generates README
 
 ## Table of Contents:
 
@@ -16,13 +16,15 @@ creates readme
 
 Please run these commands to install dependancies for this project: npm i
 
-##Usage
+## Usage
 
-to create readme
+create readme file
 
 ## License
 
 This project is protected under the MIT license.
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
 
 ## Contributors
 
