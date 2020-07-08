@@ -81,11 +81,18 @@ ${answers.description}
 
 ## Table of Contents:
 
+* [License](#license)
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Contribution](#contribution)
 * [Questions](#questions)
+
+
+## License
+
+This project is protected under the ${answers.license} license.
+![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
+
 
 ## Installation
 
@@ -94,12 +101,6 @@ Please run these commands to install dependancies for this project: ${answers.in
 ## Usage
 
 ${answers.usage}
-
-## License
-
-This project is protected under the ${answers.license} license.
-![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
-
 
 ## Contributors
 
